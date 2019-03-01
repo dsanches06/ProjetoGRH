@@ -1,0 +1,211 @@
+.root { 
+    display: block;
+    -fx-glass-color: rgba(200, 200, 200, 0.9);
+}
+
+#label {
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+
+#chkbox { 
+    -fx-font-size: 13px;
+    -fx-border-insets: -1; 
+    -fx-border-radius: 5;
+    -fx-font-weight: normal;  
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#titulo-text {
+    -fx-font-size: 30px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: red;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-text-alignment: center;
+}
+
+#nomeGestora {
+    -fx-font-size: 25px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: green;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-text-alignment: center;
+}
+
+
+#nomeFuncionario {
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: blue;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-text-alignment: center;
+}
+
+.button {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-background-color: red;
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+
+#textfieldInput{
+    -fx-border-width: 1; 
+    -fx-border-radius: 2;
+    -fx-border-color : white; 
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#textfield{
+    -fx-border-width: 1; 
+    -fx-border-radius: 2;
+    -fx-border-color : white; 
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#titulo-ordenacao {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: red;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+
+
+#modal-title {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+
+#modal-dialog {
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-glass-color, 20%), -fx-glass-color);
+    -fx-border-color: derive(-fx-glass-color, -20%);
+    -fx-border-width: 5;
+    -fx-background-insets: 12;
+    -fx-border-insets: 10;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+#modal-dialog .button:pressed {
+    -fx-cursor: default;
+}
+
+#modal-dialog-form {
+    -fx-padding: 10;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+    -fx-font-size: 16;
+    -fx-border-color: derive(-fx-glass-color, -20%);
+    -fx-border-width: 1;
+    -fx-border-insets: 5;
+    -fx-border-radius: 3;
+}
+
+#modal-dialog-actions {
+    -fx-padding: 10;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+    -fx-font-size: 16;
+    -fx-border-color: derive(-fx-glass-color, -20%);
+    -fx-border-width: 1;
+    -fx-border-insets: 5;
+    -fx-border-radius: 3;
+}
+
+.text-registar{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.textfield{
+    -fx-border-width: 1; 
+    -fx-border-radius: 2 ;
+    -fx-border-color : red; 
+}
+
+.titled-address .label {
+    -fx-font-size: 13px;
+    -fx-font-family: "Arial Black";
+}
+
+.bordered-titled-title {
+    -fx-background-color: white;
+    -fx-translate-y: -7;
+    -fx-text-alignment: center;
+}
+
+.bordered-titled-border {
+    -fx-content-display: top;
+    -fx-border-insets: 15 10 10 10;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
+
+.bordered-titled-content {
+    -fx-padding: 26 10 10 10;
+}
+
+.table-row-cell:hover{
+    -fx-background-color: lightgreen;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: lightblue;
+}
+
+
+
+.table-view {
+    -fx-base: red;
+    -fx-control-inner-background: white;
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: #1d1d1d;
+    -fx-table-header-border-color: #1d1d1d;
+    -fx-padding: 2;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+#vboxGrafico{
+    -fx-padding: 10; 
+    -fx-border-style: solid inside;
+    -fx-border-width: 1;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: black;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
